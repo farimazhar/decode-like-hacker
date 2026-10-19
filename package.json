@@ -1,0 +1,20 @@
+{
+  "name": "decode-like-hacker",
+  "version": "1.0.0",
+  "description": "Decode Like Hacker - Reverse engineer any feature like REA",
+  "type": "module",
+  "bin": {
+    "decode-like-hacker": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "setup": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
