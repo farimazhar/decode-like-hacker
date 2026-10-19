@@ -7,7 +7,38 @@
 [![MCP](https://img.shields.io/badge/MCP-Compatible-blue)](https://modelcontextprotocol.io/)
 
 `decode-like-hacker` is a Model Context Protocol (MCP) server that gives Claude the ability to instantly decode and analyze encoded strings, tokens, and payloads - just like a real hacker.
+Ye lo full *README.md* - Bas pura copy karke GitHub pe paste kar do:
+🕶️ Decode Like Hacker
 
+> A Claude MCP server to reverse engineer and rebuild any feature like a pro hacker.
+
+Paste any link or screenshot and get production-ready code instantly.
+
+Features
+- 🔍 **Decode:** Analyze any website or UI from link/image
+- 💻 **Code:** Generates clean React / Next.js / TS code
+- 🧠 **Hacker Logic:** Gives you DB schema, APIs & logic flow
+- ⚡ **Claude Native:** Works directly inside Claude Desktop
+
+Installation
+
+**1. Clone & Build**
+```bash
+git clone https://github.com/farimazhar/decode-like-hacker.git
+cd decode-like-hacker
+npm install
+npm run build
+*2. Add to Claude*
+Add this to your `claude_desktop_config.json`:
+{
+  "mcpServers": {
+    "decode-like-hacker": {
+      "command": "node",
+      "args": ["PATH_TO_YOUR_PROJECT/dist/index.js"]
+    }
+  }
+}
+Restart Claude Desktop.
 ### 🚀 Features
 
 - **Base64** decoding
